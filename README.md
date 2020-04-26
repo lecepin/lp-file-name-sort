@@ -40,7 +40,7 @@
 使用 `lpFileNameSort `：
 
 ```js
-import lpFileNameSort from 'lp-file-name-sort';
+var lpFileNameSort = require('lp-file-name-sort');
 
 [
   "aaa2.jpg",
