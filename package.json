@@ -1,10 +1,14 @@
 {
   "name": "lp-file-name-sort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "pack": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lecepin/lp-file-name-sort.git"
   },
   "author": "lecepin <leping086@vip.qq.com>",
   "license": "ISC",
@@ -14,5 +18,10 @@
     "babel-loader": "^8.1.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
-  }
+  },
+  "keywords": [
+    "sort",
+    "file sort",
+    "file name"
+  ]
 }
