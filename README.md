@@ -79,3 +79,29 @@ var lpFileNameSort = require('lp-file-name-sort');
 npm install lp-file-name-sort
 ```
 
+浏览器：
+
+```html
+<script src="https://unpkg.com/lp-file-name-sort/dist/index.js"></script>
+// lpFileNameSort
+```
+
+node.js：
+
+```js
+var lpFileNameSort = require('lp-file-name-sort');
+```
+
+ES Module：
+
+```js
+<script type="module">
+  import lpFileNameSort from "https://unpkg.com/lp-file-name-sort/dist/index.esm.js";
+</script>
+```
+
+ES6：
+
+```js
+import lpFileNameSort from 'lp-file-name-sort/dist/index.esm.js'; 
+```

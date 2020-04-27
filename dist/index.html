@@ -4,8 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://unpkg.com/lp-file-name-sort/dist/index.js"></script>
   </head>
   <body>
-    <script src="./index.js"></script>
+    <script type="module">
+      import lpFileNameSort from "./index.esm.js";
+
+      console.log(
+        [
+          "aaa2.jpg",
+          "aaa1.jpg",
+          "aaa03.jpg",
+          "aaa4.jpg",
+          "aaa05.jpg",
+          "aaa6.jpg",
+          "aaa7.jpg",
+          "aaa10.jpg",
+          "aaa8.jpg",
+          "aaa09.jpg",
+        ].sort(lpFileNameSort)
+      );
+    </script>
   </body>
 </html>
